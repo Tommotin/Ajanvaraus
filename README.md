@@ -1,2 +1,2 @@
 # Ajanvaraus
-#Tommin, Wiivin, Matiaksen ja Alisan Ohjelmistotuotannon ryhmätyö.
+Tommin, Wiivin, Matiaksen ja Alisan Ohjelmistotuotannon ryhmätyö.
