@@ -9,6 +9,27 @@
       min-height: 100vh;
     }
 
+    /*navigointibar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0077cc;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #005c9d;
+}
+
+
     h1 {
       margin-top: 30px;
       color: #333;
@@ -161,4 +182,45 @@ footer {
   margin: 0 8px;
   font-size: 1.3rem;
   text-decoration: none;
+}
+
+/*kirjautumislomake*/
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #575b5b;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

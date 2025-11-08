@@ -10,11 +10,12 @@
 <body>
   <!--testaus että toimiiko git hommat-->
   <nav>
-    <a href="etusivu.html">Etusivu</a> |
-    <a href="henkilokunta.html">Henkilökunta</a> |
-    <a href="index.html">Ajanvaraus</a> |
-    <a href="">Palvelut</a> |
-    <a href="">Yhteystiedot</a>
+<ul>
+  <li> <a href="etusivu.html">Etusivu</a> </li>
+  <li><a href="henkilokunta.html">Henkilökunta</a></li>
+  <li><a href="index.html">Ajanvaraus</a></li>
+  <li> <a href="">Palvelut</a></li>
+</ul>
   </nav>
 
   <h1>Ajanvarauskalenteri</h1>
@@ -81,7 +82,74 @@
     renderCalendar(currentDate);
   </script>
 
-  
+<div>
+<form action="">
+            <label for="first">
+                Käyttäjätunnus:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Kirjoita käyttäjätunnus" required>
+
+            <label for="password">
+                Salasana:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Syötä salasana" required>
+
+            <div class="wrap">
+                <button type="submit">
+                    Kirjaudu sisään
+                </button>
+            </div>
+        </form>
+        
+        <p>Etkö ole vielä rekisteröitynyt?
+            <a href="#" style="text-decoration: none;">
+                Rekisteröidy tästä.
+            </a>
+        </p>
+    </div>  
+</div>
+
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2>Wnb-Hieronta</h2>
+        <p>Ota rohkeasti aikaa itsellesi!</p>
+        <p>Isokatu 3, 67200 Kokkola</p>
+        <p><a href="mailto:wnb-hieronta@gmail.com">wnb-hieronta@gmail.com</a></p>
+        <p>0600-12345 (0,39 €/min+pvm) ma–pe 9–17</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Ajanvaraus</h3>
+        <ul>
+          <li><a href="index.html">Varaa aika</a></li>
+          <li><a href="#">Siirrä ajanvaraus</a></li>
+          <li><a href="#">Palvelumme</a></li>
+          <li><a href="#">Hinnasto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Yrityksemme</h3>
+        <ul>
+          <li><a href="#">Julkaisut</a></li>
+          <li><a href="#">Meille töihin</a></li>
+          <li><a href="#">Palaute</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Wnb-hieronta Oy | Design by Wnb-koodarit
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
 
