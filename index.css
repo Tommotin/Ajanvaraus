@@ -9,6 +9,31 @@
       min-height: 100vh;
     }
 
+    /*navigointibar*/
+    nav{
+      width: 100%
+    }
+
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0077cc;
+  display: flex;
+}
+
+ul.navbar li a{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #005c9d;
+}
+
+
     h1 {
       margin-top: 30px;
       color: #333;
